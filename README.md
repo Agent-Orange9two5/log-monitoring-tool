@@ -32,10 +32,12 @@ As part of a DevOps coding challenge, the goal was to:
 ```bash
 .
 ├── logs.log                # Provided log file
-├── log_report.txt          # Generated report
+├── log_report.txt          # Generated report (initial report format - no improvement) 
+├── log_report2.txt         # Generated report 2 (improved version - old version available for comparison)
 ├── bash_prototype/
 │   └── monitor_logs.sh     # Bash script
 ├── python_version/        
-│   ├── monitor.py          # Python script
+│   ├── monitor_logs.py          # Python script
+│   ├── log_report_py.txt        # Python report
 │   └── tests/
 └── README.md               
